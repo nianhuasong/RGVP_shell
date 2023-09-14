@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProtocolSettings>
+    <entry parameter="QC_QCOutputDirectory">
+	      <value>/data02/ASD/organizing/ABIDEII-NYU_1/ABIDEII-NYU_1_2MCed/sub-29186/ses-1/dwi/corrected_masked/</value>
+    </entry>
+    <entry parameter="QC_QCedDWIFileNameSuffix">
+        <value>_QCed.nrrd</value>
+    </entry>
+    <entry parameter="QC_reportFileNameSuffix">
+        <value>_QCReport.txt</value>
+    </entry>
+    <entry parameter="QC_badGradientPercentageTolerance">
+        <value>0.2</value>
+    </entry>
+    <entry parameter="QC_reportType">
+        <value>0</value>
+    </entry>
+    <entry parameter="IMAGE_bCheck">
+        <value>No</value>
+        <entry parameter="IMAGE_space">
+            <value>left-posterior-superior</value>
+        </entry>
+        <entry parameter="IMAGE_directions">
+            <value>3 0 0</value>
+            <value>0 3 0</value>
+            <value>0 0 3</value>
+        </entry>
+        <entry parameter="IMAGE_size">
+            <value>64</value>
+            <value>64</value>
+            <value>50</value>
+        </entry>
+        <entry parameter="IMAGE_spacing">
+            <value>3</value>
+            <value>3</value>
+            <value>3</value>
+        </entry>
+        <entry parameter="IMAGE_origin">
+            <value>-96</value>
+            <value>-79.3735</value>
+            <value>-85.0663</value>
+        </entry>
+        <entry parameter="IMAGE_bCrop">
+            <value>No</value>
+        </entry>
+        <entry parameter="IMAGE_croppedDWIFileNameSuffix">
+            <value>_CroppedDWI.nrrd</value>==++
+        </entry>
+        <entry parameter="IMAGE_reportFileNameSuffix">
+            <value>_QCReport.txt</value>
+        </entry>
+        <entry parameter="IMAGE_reportFileMode">
+            <value>1</value>
+        </entry>
+        <entry parameter="IMAGE_bQuitOnCheckSpacingFailure">
+            <value>No</value>
+        </entry>
+        <entry parameter="IMAGE_bQuitOnCheckSizeFailure">
+            <value>No</value>
+        </entry>
+    </entry>
+    <entry parameter="DIFFUSION_bCheck">
+        <value>No</value>
+        <entry parameter="DIFFUSION_measurementFrame">
+            <value>1 0 0</value>
+            <value>0 1 0</value>
+            <value>0 0 1</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_bValue">
+            <value>1000</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0000">
+            <value>0.00000000000000000e+00 0.00000000000000000e+00 0.00000000000000000e+00</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0001">
+            <value>0.00000000000000000e+00 0.00000000000000000e+00 -1.00000000000000000e+00</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0002">
+            <value>5.01712357175619350e-01 -6.41373013337838582e-01 -5.80452727118431544e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0003">
+            <value>-2.11219923559523515e-01 -4.91749822035771667e-01 -8.44729694292378985e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0004">
+            <value>5.69498449457157441e-01 2.37719352774285242e-01 -7.86867857637143842e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0005">
+            <value>-7.80269888343387064e-01 -5.36999923155316496e-03 6.25419910502417187e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0006">
+            <value>4.16530191041615927e-01 9.02830414083264365e-01 -1.06770048970094192e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0007">
+            <value>-5.75181550979143363e-01 8.17112203346027077e-01 -3.86501042201465445e-02</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0008">
+            <value>-7.42112448307216788e-01 6.03041989499109365e-01 -2.92590965288445859e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0009">
+            <value>-3.88540157961033306e-01 -8.11520329923657191e-01 -4.36430177430724653e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0010">
+            <value>9.96638363869972954e-01 -7.30398800941792631e-02 -3.71099390785185196e-02</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0011">
+            <value>4.84208634000949323e-01 -8.02047737346319733e-01 3.49659013578348166e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0012">
+            <value>8.17759336429455752e-01 -3.13219745837940378e-01 4.82869608175615417e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0013">
+            <value>8.89695342012230328e-01 2.83828514019704770e-01 3.57608127747548188e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0014">
+            <value>-2.66989406509907878e-01 -9.49287889830294995e-01 -1.66039630910914671e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0015">
+            <value>5.79986988657373748e-01 2.79598548300146015e-02 8.14145772884706465e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0016">
+            <value>3.23320076141886903e-01 -7.15710168549764547e-01 6.19050145786326556e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0017">
+            <value>5.98033362212816999e-01 -5.54103115231881271e-01 5.79073255616902149e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0018">
+            <value>-2.82889422255522882e-01 1.66059660856700958e-01 9.44668070706369267e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0019">
+            <value>5.70702906625840459e-02 9.00194584747705084e-01 4.31732198839274717e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0020">
+            <value>9.21589315674107623e-01 -3.43609744852678700e-01 1.80569865917895839e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0021">
+            <value>-4.72291930426366968e-01 -5.99942452179793362e-01 -6.45762639463318577e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0022">
+            <value>-3.66280009358454339e-01 8.90810022760196385e-01 2.68880006869884280e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0023">
+            <value>8.89922024886382945e-01 4.20900957698083611e-01 -1.75730399848620183e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0024">
+            <value>6.47302184583829210e-02 9.92173348491484308e-01 -1.06780360373646355e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0025">
+            <value>4.04598468112180101e-02 -5.85617782738148573e-01 8.09576934785612212e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0026">
+            <value>3.47408912090695243e-01 -4.57568567126275583e-01 8.18497436879289664e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0027">
+            <value>7.23980199022184023e-01 3.16030086876682770e-01 6.13170168560502438e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0028">
+            <value>6.14358695533566701e-01 -2.73609419045737323e-01 7.40068428614373719e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0029">
+            <value>-7.95958930709490753e-01 6.04639187728260752e-01 2.93399605847234277e-02</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0030">
+            <value>8.97157309788124357e-01 -1.74459476866597019e-01 -4.05798783173593192e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0031">
+            <value>1.52630552073336812e-01 -6.13792220121164855e-01 -7.74572801673619193e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0032">
+            <value>-7.70946770857665720e-01 4.92047939036921178e-01 4.04388306202907388e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0033">
+            <value>-2.32080058066437805e-01 8.08260202226727897e-01 5.41160135398282782e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0034">
+            <value>-7.94859679035726518e-01 -2.99339879126581221e-01 5.27819786866413065e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0035">
+            <value>6.92049223348194964e-01 7.14019198692403823e-01 -1.06039880996810318e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0036">
+            <value>-8.11110469714209081e-01 1.76000101921688543e-03 -5.84890338710093327e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0037">
+            <value>7.99697484715456985e-02 -9.81286913563124696e-01 -1.75159449071851270e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0038">
+            <value>-2.68090860492615879e-01 -4.52461452267854003e-01 8.50532729959284639e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0039">
+            <value>-2.75230302354414702e-01 -7.06500776126853913e-01 6.52000716255780266e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0040">
+            <value>5.83427535053042901e-01 7.91286656860501370e-01 1.82969226965797538e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0041">
+            <value>-8.34048997932433367e-01 -5.35299356864974096e-01 -1.33479839630743002e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0042">
+            <value>-5.53730320886813954e-01 8.64100500746385197e-02 8.28200479942317158e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0043">
+            <value>4.86570582644292982e-01 7.75610928755862683e-01 -4.02090481483535322e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0044">
+            <value>1.74130819226485767e-01 -9.22334339270456605e-01 3.44931622786376457e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0045">
+            <value>2.92809474846677853e-01 1.56849718690281803e-01 -9.43218308339481060e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0046">
+            <value>-1.95360110163597195e-01 -9.07650511824267925e-01 3.71490209483388178e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0047">
+            <value>4.87530812373269506e-01 3.27190545198059679e-01 8.09481348839895309e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0048">
+            <value>-7.21215992430229269e-01 -5.70486829984639288e-01 3.92927816624067505e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0049">
+            <value>3.58400250862343367e-02 -3.08710216081791389e-01 9.50480665289174520e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0050">
+            <value>-6.19817912797683945e-01 7.30957538541181395e-01 2.85529038496858234e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0051">
+            <value>2.01499953382991183e-02 -8.07509813182626268e-01 5.89509863616908825e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0052">
+            <value>-9.54112514519139809e-01 3.81301004901057478e-02 -2.97010782758098835e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0053">
+            <value>9.72829734320235895e-01 2.24029938817432078e-01 5.84199840455045388e-02</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0054">
+            <value>9.23505651314477261e-01 -3.53108337252065529e-01 -1.49839294423407710e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0055">
+            <value>-6.80092175142282152e-01 3.31531060337485972e-01 6.53882091314437086e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0056">
+            <value>-2.96968800114835618e-01 9.52776150363380370e-01 -6.34597435945969957e-02</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0057">
+            <value>9.47113789883412771e-01 1.23930495908871563e-01 -2.96001184451109345e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0058">
+            <value>-1.35449980698379130e-01 -7.30229895942247298e-01 -6.69639904576320388e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0059">
+            <value>-2.59821454016889442e-01 -1.60260896854540452e-01 -9.52265329082145784e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0060">
+            <value>-4.08169731383588086e-01 4.30119716938307362e-01 8.05229470078660081e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0061">
+            <value>3.30439803983166414e-01 -1.57579906523627161e-01 9.30579447980435126e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0062">
+            <value>-5.41650115777724595e-01 -5.22260111633110702e-01 6.58680140792895163e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0063">
+            <value>-6.95556461817611216e-01 -5.85247022943753303e-01 -4.16757880020570015e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_DWMRI_gradient_0064">
+            <value>-4.33600916004582768e-02 3.50970741444023071e-01 9.35381976043280883e-01</value>
+        </entry>
+        <entry parameter="DIFFUSION_bUseDiffusionProtocol">
+            <value>No</value>
+        </entry>
+        <entry parameter="DIFFUSION_bValueAcceptablePercentageTolerance_">
+            <value>5.00000000000000010e-03</value>
+        </entry>
+        <entry parameter="DIFFUSION_gradientToleranceForSameness_degree">
+            <value>1.00000000000000000e+00</value>
+        </entry>
+        <entry parameter="DIFFUSION_diffusionReplacedDWIFileNameSuffix">
+            <value>_DiffusionReplaced.nrrd</value>
+        </entry>
+        <entry parameter="DIFFUSION_reportFileNameSuffix">
+            <value>_QCReport.txt</value>
+        </entry>
+        <entry parameter="DIFFUSION_reportFileMode">
+            <value>1</value>
+        </entry>
+        <entry parameter="DIFFUSION_bQuitOnCheckFailure">
+            <value>No</value>
+        </entry>
+    </entry>
+        <entry parameter="DENOISING_bCheck">
+            <value>No</value>
+        <entry parameter="DENOISING_Path">
+            <value>/tools/Slicer3/Slicer3-3.6.3-2011-03-04-linux-x86_64/lib/Slicer3/Plugins/dwiNoiseFilter</value>
+    </entry>
+        <entry parameter="DENOISING_ParameterSet">
+            <value></value>
+    </entry>
+        <entry parameter="DENOISING_NumIter">
+            <value>1</value>
+    </entry>
+        <entry parameter="DENOISING_Est_Radius">
+            <value>3</value>
+            <value>3</value>
+            <value>0</value>
+    </entry>
+        <entry parameter="DENOISING_Filter_Radius">
+            <value>3</value>
+            <value>3</value>
+            <value>0</value>
+    </entry>
+        <entry parameter="DENOISING_Min_VoxelNum_Filter">
+            <value>1</value>
+    </entry>
+        <entry parameter="DENOISING_Min_VoxelNum_Est">
+            <value>1</value>
+    </entry>
+        <entry parameter="DENOISING_MinNoiseSTD">
+            <value>0</value>
+    </entry>
+        <entry parameter="DENOISING_MaxNoiseSTD">
+            <value>10000</value>
+    </entry>
+        <entry parameter="DENOISING_HistogramResolution">
+            <value>2.00000000000000000e+00</value>
+    </entry>
+        <entry parameter="DENOISING_AbsoluteValue">
+            <value>No</value>
+    </entry>
+    </entry>
+    <entry parameter="SLICE_bCheck">
+        <value>No</value>
+        <entry parameter="SLICE_bSubregionalCheck">
+            <value>No</value>
+        </entry>
+        <entry parameter="SLICE_subregionalCheckRelaxationFactor">
+            <value>1.10000000000000009e+00</value>
+        </entry>
+        <entry parameter="SLICE_checkTimes">
+            <value>0</value>
+        </entry>
+        <entry parameter="SLICE_headSkipSlicePercentage">
+            <value>1.00000000000000006e-01</value>
+        </entry>
+        <entry parameter="SLICE_tailSkipSlicePercentage">
+            <value>1.00000000000000006e-01</value>
+        </entry>
+        <entry parameter="SLICE_correlationDeviationThresholdbaseline">
+            <value>3.00000000000000000e+00</value>
+        </entry>
+        <entry parameter="SLICE_correlationDeviationThresholdgradient">
+            <value>3.50000000000000000e+00</value>
+        </entry>
+        <entry parameter="SLICE_outputDWIFileNameSuffix">
+            <value></value>
+        </entry>
+        <entry parameter="SLICE_reportFileNameSuffix">
+            <value>_QCReport.txt</value>
+        </entry>
+        <entry parameter="SLICE_reportFileMode">
+            <value>1</value>
+        </entry>
+        <entry parameter="SLICE_excludedDWINrrdFileNameSuffix">
+            <value></value>
+        </entry>
+        <entry parameter="SLICE_bQuitOnCheckFailure">
+            <value>No</value>
+        </entry>
+    </entry>
+    <entry parameter="INTERLACE_bCheck">
+        <value>No</value>
+        <entry parameter="INTERLACE_correlationThresholdBaseline">
+            <value>8.96635951865420666e-01</value>
+        </entry>
+        <entry parameter="INTERLACE_correlationThresholdGradient">
+            <value>8.85197065147351525e-01</value>
+        </entry>
+        <entry parameter="INTERLACE_correlationDeviationBaseline">
+            <value>2.50000000000000000e+00</value>
+        </entry>
+        <entry parameter="INTERLACE_correlationDeviationGradient">
+            <value>3.00000000000000000e+00</value>
+        </entry>
+        <entry parameter="INTERLACE_translationThreshold">
+            <value>2.99999999999970024e+00</value>
+        </entry>
+        <entry parameter="INTERLACE_rotationThreshold">
+            <value>5.00000000000000000e-01</value>
+        </entry>
+        <entry parameter="INTERLACE_outputDWIFileNameSuffix">
+            <value></value>
+        </entry>
+        <entry parameter="INTERLACE_reportFileNameSuffix">
+            <value>_QCReport.txt</value>
+        </entry>
+        <entry parameter="INTERLACE_reportFileMode">
+            <value>1</value>
+        </entry>
+        <entry parameter="INTERLACE_excludedDWINrrdFileNameSuffix">
+            <value></value>
+        </entry>
+        <entry parameter="INTERLACE_bQuitOnCheckFailure">
+            <value>No</value>
+        </entry>
+    </entry>
+    <entry parameter="BASELINE_bAverage">
+        <value>No</value>
+        <entry parameter="BASELINE_averageMethod">
+            <value>1</value>
+        </entry>
+        <entry parameter="BASELINE_averageInterpolationMethod">
+            <value>Linear</value>
+        </entry>
+        <entry parameter="BASELINE_stopThreshold">
+            <value>2.00000000000000004e-02</value>
+        </entry>
+        <entry parameter="BASELINE_b0Threshold">
+            <value>9.99999999999999955e-08</value>
+        </entry>
+        <entry parameter="BASELINE_outputDWIFileNameSuffix">
+            <value></value>
+        </entry>
+        <entry parameter="BASELINE_reportFileNameSuffix">
+            <value>_QCReport.txt</value>
+        </entry>
+       <entry parameter="BASELINE_reportFileMode">
+            <value>1</value>
+        </entry>
+    </entry>
+    <entry parameter="EDDYMOTION_bCorrect">
+        <value>Yes</value>
+        <entry parameter="EDDYMOTION_numberOfIterations">
+            <value>1000</value>
+        </entry>
+        <entry parameter="EDDYMOTION_numberOfSamples">
+            <value>100000</value>
+        </entry>
+        <entry parameter="EDDYMOTION_translationScale">
+            <value>1.00000000000000000e+03</value>
+        </entry>
+        <entry parameter="EDDYMOTION_maxStepLength">
+            <value>2.00000002980232239e-01</value>
+        </entry>
+        <entry parameter="EDDYMOTION_minStepLength">
+            <value>9.99999974737875164e-05</value>
+        </entry>
+        <entry parameter="EDDYMOTION_relaxFactor">
+            <value>5.00000000000000000e-01</value>
+        </entry>
+        <entry parameter="EDDYMOTION_outputDWIFileNameSuffix">
+            <value></value>
+        </entry>
+        <entry parameter="EDDYMOTION_finalTransformFileSuffix">
+            <value></value>
+        </entry>No
+        <entry parameter="EDDYMOTION_reportFileNameSuffix">
+            <value>_QCReport.txt</value>
+        </entry>
+        <entry parameter="EDDYMOTION_InterpolationMethod">
+            <value>Linear</value>
+        </entry>
+        <entry parameter="EDDYMOTION_reportFileMode">
+            <value>1</value>
+        </entry>
+    </entry>
+    <entry parameter="GRADIENT_bCheck">
+        <value>No</value>
+        <entry parameter="GRADIENT_translationThrehshold">
+            <value>2.99999999999970024e+00</value>
+        </entry>
+        <entry parameter="GRADIENT_rotationThreshold">
+            <value>5.00000000000000000e-01</value>
+        </entry>
+        <entry parameter="GRADIENT_outputDWIFileNameSuffix">
+            <value></value>
+        </entry>
+        <entry parameter="GRADIENT_reportFileNameSuffix">
+            <value>_QCReport.txt</value>
+        </entry>
+        <entry parameter="GRADIENT_reportFileMode">
+            <value>1</value>
+        </entry>
+        <entry parameter="GRADIENT_excludedDWINrrdFileNameSuffix">
+            <value></value>
+        </entry>
+        <entry parameter="GRADIENT_bQuitOnCheckFailure">
+            <value>No</value>
+        </entry>
+    </entry>
+    <entry parameter="JOINDENOISING_bCheck">
+        <value>No</value>
+    <entry parameter="JOINDENOISING_Path">
+            <value>/tools/Slicer3/Slicer3-3.6.3-2011-03-04-linux-x86_64/lib/Slicer3/Plugins/jointLMMSE</value>
+        </entry>
+    <entry parameter="JOINDENOISING_ParameterSet">
+            <value></value>
+        </entry>
+    <entry parameter="JOINDENOISING_NumNeighborGradients">
+            <value>0</value>
+        </entry>
+    <entry parameter="JOINDENOISING_Est_Radius">
+            <value>2</value>
+            <value>2</value>
+            <value>1</value>
+        </entry>
+    <entry parameter="JOINDENOISING_Filter_Radius">
+            <value>2</value>
+            <value>2</value>
+            <value>1</value>
+        </entry>
+        </entry>
+    <entry parameter="BRAINMASK_bCheck">
+        <value>No</value>
+    <entry parameter="BRAINMASK_method">
+            <value>0</value>
+        </entry>
+    <entry parameter="BRAINMASK_SystemPath_FSL">
+            <value></value>
+        </entry>
+    <entry parameter="BRAINMASK_SystemPath_convertITK">
+            <value></value>
+        </entry>
+    <entry parameter="BRAINMASK_SystemPath_imagemath">
+            <value></value>
+        </entry>
+    <entry parameter="BRAINMASK_SystemPath_Slicer">
+            <value></value>
+        </entry>
+    <entry parameter="BRAINMASK_MaskedImage">
+            <value></value>
+        </entry>
+    <entry parameter="BRAINMASK_reportFileNameSuffix">
+            <value>_QCReport.txt</value>
+        </entry>
+    <entry parameter="BRAINMASK_reportFileMode">
+            <value>1</value>
+        </entry>
+    <entry parameter="BRAINMASK_bQuitOnCheckFailure">
+            <value>No</value>
+        </entry>
+        </entry>
+    <entry parameter="DOMINANTDIRECTION_bCheck">
+        <value>No</value>
+    <entry parameter="DOMINANTDIRECTION_Mean">
+            <value>6.50000000000000000e+00</value>
+        </entry>
+    <entry parameter="DOMINANTDIRECTION_Deviation">
+            <value>1.00000000000000002e-02</value>
+        </entry>
+    <entry parameter="DOMINANTDIRECTION_z-Threshold1">
+            <value>1.63999999999999990e+00</value>
+        </entry>
+    <entry parameter="DOMINANTDIRECTION_z-Threshold2">
+            <value>2.58000000000000007e+00</value>
+        </entry>
+    <entry parameter="DOMINANTDIRECTION_reportFileNameSuffix">
+            <value>_QCReport.txt</value>
+        </entry>
+    <entry parameter="DOMINANTDIRECTION_reportFileMode">
+            <value>1</value>
+        </entry>
+    <entry parameter="DOMINANTDIRECTION_bQuitOnCheckFailure">
+            <value>No</value>
+        </entry>
+        </entry>
+    <entry parameter="DTI_bCompute">
+        <value>No</value>
+        <entry parameter="DTI_dtiestimCommand">
+            <value>/tools/bin_linux64/dtiestim</value>
+        </entry>
+        <entry parameter="DTI_dtiprocessCommand">
+            <value>/tools/bin_linux64/dtiprocess</value>
+        </entry>
+        <entry parameter="DTI_method">
+            <value>wls</value>
+        </entry>
+        <entry parameter="DTI_baselineThreshold">
+            <value>50</value>
+        </entry>
+        <entry parameter="DTI_tensor">
+            <value>_DTI.nrrd</value>
+        </entry>
+        <entry parameter="DTI_baseline">
+            <value>No</value>
+            <value>_Baseline.nrrd</value>
+        </entry>
+        <entry parameter="DTI_idwi">
+            <value>No</value>
+            <value>_IDWI.nrrd</value>
+        </entry>
+        <entry parameter="DTI_fa">
+            <value>No</value>
+            <value>_FA.nrrd</value>
+        </entry>
+        <entry parameter="DTI_md">
+            <value>No</value>
+            <value>_MD.nrrd</value>
+        </entry>
+        <entry parameter="DTI_colorfa">
+            <value>No</value>
+            <value>_colorFA.nrrd</value>
+        </entry>
+        <entry parameter="DTI_frobeniusnorm">
+            <value>No</value>
+            <value>_frobeniusnorm.nrrd</value>
+        </entry>
+        <entry parameter="DTI_reportFileNameSuffix">
+            <value>_QCReport.txt</value>
+        </entry>
+        <entry parameter="DTI_reportFileMode">
+            <value>1</value>
+        </entry>
+    </entry>
+</ProtocolSettings>
